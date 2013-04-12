@@ -17,9 +17,9 @@ Specifications
 - The file extension is "oef" (*.oef).
 
 - Oef leaves :
-  An oef leave is any hdf5 folder containing ESD data that must have
-  - an attribute named "oef_data_type" which has is one the string in
-    ("tlp", "hbm", "mm") list.
+  An oef leave is any hdf5 folder containing ESD data that must have:
+  -  an attribute named "oef_data_type" which has is one the string in
+     ("tlp", "hbm", "mm") list.
   -  an attribute named "oef_version" which
      is a string following standard strict python conventions for version numbering
      "A version number consists of two or three
