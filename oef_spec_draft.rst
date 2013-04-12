@@ -23,7 +23,7 @@ Specifications
 
 - An oef leave must have
 
-- an attribute named "oef_data_type" which has is one the string in
+  - an attribute named "oef_data_type" which has is one the string in
     ("tlp", "hbm", "mm") list,
   - and an attribute named "oef_version" which
     is a string following standard strict python conventions for version numbering
