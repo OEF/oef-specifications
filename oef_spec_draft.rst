@@ -31,6 +31,7 @@ Specifications
     numbers are equal, then one with a pre-release tag will always
     be deemed earlier (lesser) than one without."
 
-- The root folder cannot be an oef leave
+- The root folder can be an oef leave but then only one measurement can be
+  included in the oef file as an oef leave cannont contain another oef leave.
 
 -...
