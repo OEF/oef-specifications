@@ -4,8 +4,8 @@ OEF file format specifications
 Preambule
 ---------
 
-- All computer strings (i.g. "text") specified in this document are case sensitive
-  (i.e. if string is lower case, an upper case version is not valid)
+All computer strings (i.g. "text") specified in this document are case sensitive
+(i.e. if string is lower case, an upper case version is not valid)
 
 Definition
 ----------
@@ -34,4 +34,4 @@ Specifications
 - The root folder can be an oef leave but then only one measurement can be
   included in the oef file as an oef leave cannont contain another oef leave.
 
--...
+- ...
