@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from distutils.version import StrictVersion
 import h5py
@@ -8,14 +9,15 @@ oef_required_attributes = {'oef_data_type', 'oef_version'}
 
 debug = True
 
+
 class OefLeaveList(list):
-    
+
     def __init__(self):
         list.__init__(self)
 
     def add_from(self, oef_file):
         oef_file.visititems(self.add_if_valid)
-        
+
     def add_if_valid(self, name, item):
         print "In", name
         if type(item) is h5py.Group:
@@ -67,5 +69,5 @@ def scan_oef(oef_file_name):
                     print "which is itself a valid oef leaf"
     return True
 
-if __name__ == '__main___':
+if __name__ == '__main__':
     scan_oef('demo.oef')

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import h5py
 
 oef_file = h5py.File('demo.oef', 'w')
