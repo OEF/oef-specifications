@@ -14,15 +14,14 @@ Practically it is an hdf5 file which follow specifications below.
 
 Specifications
 --------------
-
-- The file extension is "oef" (*.oef).
-
-- Oef leaves
-  An oef leave is any hdf5 folder containing ESD data that must have
-
+- An open ESD file (oef) is actually an hdf5 file.
+- The oef file extension is "oef" (*.oef).
+- Oef leaves:
+  An oef leave is any hdf5 folder containing ESD data
+- An oef leave must have
   - an attribute named "oef_data_type" which has is one the string in
-    ("tlp", "hbm", "mm") list.
-  - an attribute named "oef_version" which
+    ("tlp", "hbm", "mm") list,
+  - and an attribute named "oef_version" which
     is a string following standard strict python conventions for version numbering
     "A version number consists of two or three
     dot-separated numeric components, with an optional "pre-release" tag
