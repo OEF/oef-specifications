@@ -10,7 +10,7 @@ if string is lower case, an upper case version is not valid)
 Definition
 ----------
 An OEF file is designed to be an ESD data exchange format.
-Practically it is an hdf5 file which follow conventions:
+Practically it is an hdf5 file which follow specifications below.
 
 Specifications
 --------------
@@ -22,12 +22,12 @@ Specifications
     ("tlp", "hbm", "mm") list.
   -  an attribute named "oef_version" which
      is a string following standard strict python conventions for version numbering
-   "A version number consists of two or three
-    dot-separated numeric components, with an optional "pre-release" tag
-    on the end.  The pre-release tag consists of the letter 'a' or 'b'
-    followed by a number.  If the numeric components of two version
-    numbers are equal, then one with a pre-release tag will always
-    be deemed earlier (lesser) than one without."
+     "A version number consists of two or three
+      dot-separated numeric components, with an optional "pre-release" tag
+      on the end.  The pre-release tag consists of the letter 'a' or 'b'
+      followed by a number.  If the numeric components of two version
+      numbers are equal, then one with a pre-release tag will always
+      be deemed earlier (lesser) than one without."
 
 - The root folder cannot be an oef leave
 
