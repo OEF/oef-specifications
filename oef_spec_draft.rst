@@ -4,8 +4,8 @@ OEF file format specifications
 Preambule
 ---------
 
-- All computer strings (i.g. "text") specified in this document are case sensitive (i.e.
-if string is lower case, an upper case version is not valid)
+- All computer strings (i.g. "text") specified in this document are case sensitive
+  (i.e. if string is lower case, an upper case version is not valid)
 
 Definition
 ----------
