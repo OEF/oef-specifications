@@ -24,7 +24,7 @@ Specifications
 - An oef leave must have
 
   - an attribute named "oef_data_type" which has is one the string in
-    ("tlp", "hbm", "mm") list,
+    ("tlp", "vfTLP", "hbm", "mm" "hmm") list,
   - and an attribute named "oef_version" which
     is a string following standard strict python conventions for version numbering
     "A version number consists of two or three
@@ -39,4 +39,12 @@ Specifications
 - The root folder can be an oef leave but then only one measurement can be
   included in the oef file (see point above).
 
-- ...
+- supported data (in leaves):
+ 
+ - transient waveforms: one leave for current and one leave for voltage
+
+ - if TLP/vfTLP: one leave for I-V curve extracted during measurement
+
+ - functional test/leakage measurement data
+
+- optional: data about the test setup like e.g. tester model, scope model, ...
